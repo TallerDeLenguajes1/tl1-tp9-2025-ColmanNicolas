@@ -5,13 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
+        {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/LectorDirectorio/bin/Debug/net8.0/LectorDirectorio.dll",
+            "program": "${workspaceFolder}/bin/Debug/net8.0/LectorDirectorio.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/LectorDirectorio",
+            "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "stopAtEntry": false
         },

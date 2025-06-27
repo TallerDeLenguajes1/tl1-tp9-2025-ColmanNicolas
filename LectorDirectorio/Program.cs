@@ -9,7 +9,7 @@ class Program
         string ruta ;
         do{
 
-        Console.Write("Ingrese la direccion de un directorio dentro del Disco C:\\: "); 
+        Console.Write("Ingrese la direccion completa de un directorio dentro del Disco C: "); 
         ruta = Console.ReadLine(); 
 
         if (!Directory.Exists(ruta)) 
