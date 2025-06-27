@@ -18,18 +18,18 @@ class Program
         }
 
         }while(!Directory.Exists(ruta));
-        string[] carpetas = Directory.GetDirectories(ruta);
+        string[] directorios = Directory.GetDirectories(ruta);
         Console.WriteLine("Carpetas dentro del directorio ingresado:");
 
-        foreach (var direccion in carpetas)
+        foreach (var direccion in directorios)
         {
             string[] partes = direccion.Split('\\');
-            Console.WriteLine("Directorio: " + partes[partes.Length - 1]);
+            Console.WriteLine("Directorio: " + partes[^1]);
             var archivos = Directory.GetFiles(direccion);
             foreach (var archivo in archivos)
             {
                 FileInfo fileInfo = new FileInfo(archivo);
-                Console.WriteLine($"  Nombre: {fileInfo.Name}, Tamaño: {fileInfo.Length / 1024} Kilobytes, Último acceso: {fileInfo.LastAccessTime}");
+                Console.WriteLine($"  Nombre: {fileInfo.Name}, Tamaño: {fileInfo.Length / 1024.0} Kilobytes, Último acceso: {fileInfo.LastAccessTime}");
             }
         Console.WriteLine("");
         }
