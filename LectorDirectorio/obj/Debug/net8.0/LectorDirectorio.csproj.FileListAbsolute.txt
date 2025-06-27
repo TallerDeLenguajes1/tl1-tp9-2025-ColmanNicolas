@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.AssemblyInfo.cs
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.sourcelink.json
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\bin\Debug\net8.0\LectorDirectorio.exe
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\bin\Debug\net8.0\LectorDirectorio.deps.json
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\bin\Debug\net8.0\LectorDirectorio.runtimeconfig.json
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\bin\Debug\net8.0\LectorDirectorio.dll
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\bin\Debug\net8.0\LectorDirectorio.pdb
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.dll
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\obj\Debug\net8.0\refint\LectorDirectorio.dll
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.pdb
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\obj\Debug\net8.0\LectorDirectorio.genruntimeconfig.cache
+C:\Users\user\Desktop\Facultad\tl1-tp9-2025-ColmanNicolas\LectorDirectorio\obj\Debug\net8.0\ref\LectorDirectorio.dll

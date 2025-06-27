@@ -3,7 +3,7 @@ using System.IO;
 
 class Program
 {
-    static void Main()
+    public static void Main()
     {
         Console.WriteLine("La ruta del directorio de trabajo actual es: " + Directory.GetCurrentDirectory()); 
         string ruta ;
@@ -14,22 +14,24 @@ class Program
 
         if (!Directory.Exists(ruta)) 
         {
-            Console.WriteLine("No se encontró el directorio: ", ruta); 
+            Console.WriteLine("No se encontró el directorio: "+ ruta); 
         }
 
         }while(!Directory.Exists(ruta));
         string[] carpetas = Directory.GetDirectories(ruta);
         Console.WriteLine("Carpetas dentro del directorio ingresado:");
-        foreach(var direccion in carpetas)
+
+        foreach (var direccion in carpetas)
         {
             string[] partes = direccion.Split('\\');
-            Console.WriteLine("Directorio: ", partes[partes.Length - 1]);
-            var[] archivos = Directory.GetFiles(direccion);
-            foreach (var archivo in direccion)
+            Console.WriteLine("Directorio: " + partes[partes.Length - 1]);
+            var archivos = Directory.GetFiles(direccion);
+            foreach (var archivo in archivos)
             {
                 FileInfo fileInfo = new FileInfo(archivo);
                 Console.WriteLine($"  Nombre: {fileInfo.Name}, Tamaño: {fileInfo.Length / 1024} Kilobytes, Último acceso: {fileInfo.LastAccessTime}");
             }
+        Console.WriteLine("");
         }
     }
 }
